@@ -42,7 +42,7 @@ public class App {
     }
 
     // Carregar a hierarquia de palavras do arquivo JSON
-    private static void loadHierarchy(String filePath) {
+    static void loadHierarchy(String filePath) {
         try {
             Gson gson = new Gson();
             FileReader reader = new FileReader(filePath);
